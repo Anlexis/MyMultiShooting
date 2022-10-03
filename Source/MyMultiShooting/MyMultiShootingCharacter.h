@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Interfaces/OnlineSessionInterface.h"
 #include "MyMultiShootingCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -65,6 +66,16 @@ public:
 public:
 
 	//pointer t othe online session interface
-	TSharedPtr<class IOnlineSession, ESPMode::ThreadSafe> OnlineSessionInterface;
+	IOnlineSessionPtr OnlineSessionInterface;
+
+protected:
+	UFUNCTION(BlueprintCallable)
+	void CreateGameSession();
+
+	void OnCreateSessionComplete(FName SessionName, bool bWasSuccessful);
+
+private:
+	//Delegate
+	FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
 };
 

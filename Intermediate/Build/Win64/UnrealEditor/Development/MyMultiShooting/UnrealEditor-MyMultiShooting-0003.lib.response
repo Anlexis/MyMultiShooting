@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyMultiShooting-0003.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\MyMultiShootingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\MyMultiShooting.cpp.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\MyMultiShootingGameMode.cpp.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\MyMultiShootingCharacter.cpp.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\MyMultiShooting.init.gen.cpp.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\MyMultiShootingCharacter.gen.cpp.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\MyMultiShootingGameMode.gen.cpp.obj"
+"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\Default.rc2.res"
+/OUT:"C:\Users\kathe\Documents\Unreal Projects\MyMultiShooting\Intermediate\Build\Win64\UnrealEditor\Development\MyMultiShooting\UnrealEditor-MyMultiShooting-0003.lib"
