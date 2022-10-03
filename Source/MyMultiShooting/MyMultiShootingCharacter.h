@@ -77,11 +77,13 @@ protected:
 
 	void OnCreateSessionComplete(FName SessionName, bool bWasSuccessful);
 	void OnFindSessionsComplete(bool bWasSuccessful);
+	void OnJoinSessionComplete(FName SessionName, EOnJoinSessionCompleteResult::Type Result);
 
 private:
 	//Delegate
 	FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
 	FOnFindSessionsCompleteDelegate FindSessionsCompleteDelegate;
 	TSharedPtr<FOnlineSessionSearch> SessionSearch;
+	FOnJoinSessionCompleteDelegate JoinSessionCompleteDelegate;
 };
 
